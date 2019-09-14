@@ -21,7 +21,7 @@ const CustomButton = styled.button`
   color: white;
   border: none;
   border-radius: 4px;
-  padding: 10px 15 px; 
+  padding: 10px 15px; 
   ${(props) => props.size === 'small' ? 'padding: 0px' : null};
   ${(props) => props.size === 'medium' ? 'padding: 10px 15px' : null};
   ${(props) => props.size === 'large' ? 'padding: 20px 30px' : null};
